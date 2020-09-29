@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Phone Whatsapp Call</title>
+
+    <!-- Vendor CSS -->
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+
+    <!-- External CSS File -->
+    <link rel="stylesheet" href="phone-whatsapp-button.css" />
+
+    <!-- Vendor Javascript -->
+    <!-- JavaScript for Font Awesome icons (kit-id=737a43383c) TODO Change kit-id to DigitallyGreat account-->
+    <script
+      src="https://kit.fontawesome.com/737a43383c.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- JavaScript for Bootstrap -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <!-- Collapsable Menu -->
+    <div class="collapsable-menu">
+      <!-- Round Green Phone Button (Bootstrap 4) -->
+      <button type="button" class="rotate-btn round-btn large-btn btn">
+        <!-- Phone Icon (Font Awesome) -->
+        <span class="fas fa-phone"></span>
+      </button>
+      <!-- Collapsable div containing the items -->
+      <div class="collapsable-menu-content">
+        <!-- Item Whatsapp (Enter phone number with prefix in phone=)-->
+        <a
+          href="https://api.whatsapp.com/send?phone=40746738092&text=Text&Here"
+          class="round-btn small-btn btn btn-success"
+          target="_blank"
+        >
+          <!-- Whatsapp Icon (Font Awesome) -->
+          <span class="fab fa-whatsapp"></span>
+        </a>
+        <!-- Item Phone (enter phone number with prefix in href) -->
+        <a
+          href="tel:123-456-7890"
+          class="round-btn small-btn btn btn-success"
+          target="_blank"
+        >
+          <!-- Phone Icon (Font Awesome) -->
+          <span class="fas fa-phone"></span>
+        </a>
+      </div>
+    </div>
+  </body>
+</html>
